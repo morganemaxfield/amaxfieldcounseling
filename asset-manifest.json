@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/amaxfieldcounseling/static/css/main.69b6a867.css",
+    "main.js": "/amaxfieldcounseling/static/js/main.a5fd815e.js",
+    "static/js/488.0ce89e6a.chunk.js": "/amaxfieldcounseling/static/js/488.0ce89e6a.chunk.js",
+    "static/media/headshot.JPG": "/amaxfieldcounseling/static/media/headshot.0693edf10d2a30f0e7be.JPG",
+    "static/media/building.JPEG": "/amaxfieldcounseling/static/media/building.bee479132c6ba476dc31.JPEG",
+    "static/media/jumping.jpg": "/amaxfieldcounseling/static/media/jumping.073605a87027ed4bd59f.jpg",
+    "static/media/couch.jpg": "/amaxfieldcounseling/static/media/couch.0f30fef9d78f31dabbac.jpg",
+    "static/media/familyBW.jpg": "/amaxfieldcounseling/static/media/familyBW.d72a47211f472247a790.jpg",
+    "static/media/NoticeOfPrivacyPractices.pdf": "/amaxfieldcounseling/static/media/NoticeOfPrivacyPractices.193be5f0b468e8859bdf.pdf",
+    "index.html": "/amaxfieldcounseling/index.html",
+    "main.69b6a867.css.map": "/amaxfieldcounseling/static/css/main.69b6a867.css.map",
+    "main.a5fd815e.js.map": "/amaxfieldcounseling/static/js/main.a5fd815e.js.map",
+    "488.0ce89e6a.chunk.js.map": "/amaxfieldcounseling/static/js/488.0ce89e6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69b6a867.css",
+    "static/js/main.a5fd815e.js"
+  ]
+}
