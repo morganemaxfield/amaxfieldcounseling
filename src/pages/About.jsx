@@ -111,7 +111,7 @@ function About() {
                 Licensed Clinical Social Worker
             </Typography>
             <Typography variant="body1" paragraph sx={{ lineHeight: 1.6, textAlign: 'left' }}>
-              I bring over 20 years of experience as a licensed counselor and social worker, serving children, teens, adults, and families. My professional journey has taken me through schools, community agencies, adoption services, child welfare, and faith-based settings. These diverse experiences allow me to offer deep insight, practical tools, and a compassionate perspective to those I work with.
+              I bring over 20 years of experience as a licensed clinical social worker, serving children, teens, adults, and families. My professional journey has taken me through schools, community agencies, adoption services, child welfare, and faith-based settings. These diverse experiences allow me to offer deep insight, practical tools, and a compassionate perspective to those I work with.
             </Typography>
             <Typography variant="body1" paragraph sx={{ lineHeight: 1.6, textAlign: 'left' }}>
               Beyond my professional background, I’m also a parent of two adult children and a former foster parent. These roles have shaped my understanding of the challenges families face and the resilience required to overcome them. I know what it means to navigate seasons of change, and I’m here to walk alongside you with empathy and care.
