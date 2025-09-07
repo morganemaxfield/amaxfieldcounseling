@@ -34,10 +34,9 @@ function Appointment() {
     'LifeWise',
     'Cigna and Evernorth',
     'First Choice Health | FCH',
-    'LifeWise',
     'Optum',
-    'Premera Blue Cross',
     'UnitedHealthcare UHC | UBH',
+    'Regence Blue Shield', 
   ];
   
   const [formData, setFormData] = useState({
@@ -169,7 +168,7 @@ function Appointment() {
       {/* Appointment Form Section */}
       <Container maxWidth="lg" sx={{ mb: 8 }}>
         <Grid container spacing={4}>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={12}>
                     <Paper 
                         elevation={3} 
                         sx={{ p: { xs: 3, md: 4 }, borderRadius: 2, textAlign: "center" }}
@@ -195,7 +194,7 @@ function Appointment() {
                         </Button>
                     </Paper>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <Paper elevation={3} sx={{ p: { xs: 3, md: 4 }, borderRadius: 2, textAlign: "center" }}>
                         <Typography variant="h4" gutterBottom>New to the practice?</Typography>
                         <Typography variant="body1" paragraph>

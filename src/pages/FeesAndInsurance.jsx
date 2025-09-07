@@ -31,11 +31,12 @@ function InsuranceAndFees() {
   // Insurance types list
   const insuranceTypes = [
     'Premera Blue Cross',
-    'LifeWise Health Plan',
+    'LifeWise',
     'Cigna and Evernorth',
     'First Choice Health | FCH',
     'Optum',
     'UnitedHealthcare UHC | UBH',
+    'Regence Blue Shield', 
   ];
 
   // Payment methods

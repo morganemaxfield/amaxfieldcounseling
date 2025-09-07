@@ -380,42 +380,95 @@ function About() {
           Schedule an Appointment
         </Button>
       </Container>
-      {/* Location Section */}
-      <Grid xs="12" sx={{justifyContent: "center"}}>
-        <Card maxWidth="md" sx={{ display: 'flex', mx: 10, my: 3}}>
-          <CardContent>
-            <Stack>
-              <Typography variant="h3" align="left" gutterBottom>
+      <Grid container justifyContent="center" sx={{ px: 2, py: 4 }}>
+        <Card
+          sx={{
+            width: '100%',
+            maxWidth: 1000,
+            display: 'flex',
+            flexDirection: { xs: 'column', md: 'row' },
+            p: 3,
+          }}
+        >
+          {/* Left Column: Text Content */}
+          <Grid
+            container
+            item
+            xs={12}
+            md={6}
+            direction="column"
+            justifyContent="space-between"
+          >
+            <CardContent>
+              <Typography variant="h4" gutterBottom>
                 Location
               </Typography>
-              <Typography variant="subtitle" align="left" gutterBottom sx={{mt: 5}}>
-                  <strong>Meridian Professional Counseling</strong><br/>
-                  426 North Meridian<br/>
-                  Puyallup, WA 98371
+              <Typography
+                variant="subtitle1"
+                gutterBottom
+                sx={{ mt: 3 }}
+              >
+                <strong>Meridian Professional Counseling</strong><br />
+                426 North Meridian<br />
+                Puyallup, WA 98371
               </Typography>
-              <Button  
-                href="https://maps.app.goo.gl/JUqLMQhshtH3WKpy5" 
-                variant="contained" 
+              <Button
+                href="https://maps.app.goo.gl/JUqLMQhshtH3WKpy5"
+                variant="contained"
                 color="primary"
-                sx={{mt: 10}}>
+                sx={{ mt: 4 }}
+              >
                 Get Directions
               </Button>
-            </Stack>
-          </CardContent>
-          <CardMedia
-            component="img"
-            sx={{ maxWidth: 275, ml: 30, mr: 12, boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.2)'}}
-            image={Couch}
-            alt="Counseling office inside image"
-            align="right"
-          />
-          <CardMedia
-            component="img"
-            sx={{ maxWidth: 275, boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.2)'}}
-            image={Building}
-            alt="Counseling office Building"
-            align="right"
-          />
+            </CardContent>
+          </Grid>
+
+          {/* Right Column: Side-by-Side Images on Desktop */}
+          <Grid
+            container
+            item
+            xs={12}
+            md={6}
+            spacing={2}
+            justifyContent="center"
+            alignItems="center"
+            sx={{
+              flexDirection: { xs: 'column', sm: 'column', md: 'row' },
+              mt: { xs: 4, md: 0 },
+            }}
+          >
+            {/* Image 1 */}
+            <Grid item md={6}>
+              <CardMedia
+                component="img"
+                image={Couch}
+                alt="Counseling office inside"
+                sx={{
+                  width: '100%',
+                  height: 200,
+                  objectFit: 'cover',
+                  borderRadius: 1,
+                  boxShadow: 2,
+                }}
+              />
+            </Grid>
+
+            {/* Image 2 */}
+            <Grid item md={6}>
+              <CardMedia
+                component="img"
+                image={Building}
+                alt="Counseling office building"
+                sx={{
+                  width: '100%',
+                  height: 200,
+                  objectFit: 'cover',
+                  borderRadius: 1,
+                  boxShadow: 2,
+                }}
+              />
+            </Grid>
+          </Grid>
         </Card>
       </Grid>
     </Box>
