@@ -168,7 +168,7 @@ function Appointment() {
       {/* Appointment Form Section */}
       <Container maxWidth="lg" sx={{ mb: 8 }}>
         <Grid container spacing={4}>
-                <Grid item xs={12} md={12}>
+                <Grid item xs={12} md={6}>
                     <Paper 
                         elevation={3} 
                         sx={{ p: { xs: 3, md: 4 }, borderRadius: 2, textAlign: "center" }}
