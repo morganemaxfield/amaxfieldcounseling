@@ -198,7 +198,7 @@ function InsuranceAndFees() {
                             Individual Therapy
                         </Typography>
                         <Typography variant="h3" sx={{ fontWeight: 'bold', mb: 2 }}>
-                            $125
+                            $140
                         </Typography>
                         <Typography variant="body1" color="text.secondary">
                             per 50-minute session
